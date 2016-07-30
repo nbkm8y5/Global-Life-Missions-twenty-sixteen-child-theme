@@ -1,0 +1,78 @@
+/*
+Theme Name: Go Life Missions Child Theme
+Theme URI: http://golifemissions.net
+Description: Child Theme Twenty Sixteen Theme
+Author: Rolando Moreno
+Author URI: http://greasyhacks.com
+Template: twentysixteen
+Version: 0.0.1
+*/
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+.page-id-4 .entry-title {
+    display: none;
+}
+@media (max-width: 767px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .site-content {
+        padding: 0px !important;
+    }
+    .site {
+        margin: 0px !important;
+    }
+    #post-4> div {
+        margin: 0px;
+    }
+    .hidden-sm {
+        display: none !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .site-content {
+        padding: 0px !important;
+    }
+    .site {
+        margin: 0px !important;
+    }
+    #panel-4-0-0-0> div> div> ul> li.sow-slider-image.cycle-slide.cycle-slide-active> video {
+        width: 100%
+    }
+    .hidden-md {
+        display: none !important;
+    }
+}
+@media screen and (min-width:1200px) {
+    .site-content {
+        padding: 0px !important;
+    }
+    .site {
+        margin: 0px !important;
+    }
+    #post-4> div {
+        margin: 0px;
+    }
+    #panel-4-0-0-0> div> div> ul> li.sow-slider-image.cycle-slide.cycle-slide-active> video {
+        width: 100%
+    }
+    #pg-4-0, #pg-4-1 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .hidden-lg {
+        display: none !important;
+    }
+
+    #primary{
+      padding-left: 5%;
+    }
+    #secondary{
+      padding-right: 5%;
+    }
+}
